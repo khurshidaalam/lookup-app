@@ -45,6 +45,7 @@ a {
   font-size: 20px;
   line-height: 28px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 h1 {
   text-transform: capitalize;
@@ -73,6 +74,7 @@ p {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+  cursor: pointer;
 }
 .form {
   display: flex;
