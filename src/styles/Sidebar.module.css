@@ -1,0 +1,49 @@
+
+.sidebararea {
+    background-color: var(--bg-black);
+    width: 146px;
+    position: relative;
+    transition: all 0.3s;
+
+}
+.sidebarlist{
+    padding: 15px;
+    position: relative;
+}
+.sidebarlist li {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: var(--font-grey);
+    text-transform: capitalize;
+}
+
+.sidebarlist li svg {
+    margin-right: 10px;
+    
+}
+
+
+
+.contentarea {
+    width: calc(100vw - 146px);
+    background-color: red;
+    transition: all 0.3s;
+}
+
+.minimize-sidebar .contentarea {
+    width: calc(100% - 65px);
+}
+.minimize-sidebar aside.sidebararea {
+    width: 65px;
+}
+.minimize-sidebar .sidebar-list li span{
+    display: none;
+} 
+.minimize-sidebar .minimizebtn{
+    transform: rotate(90deg);
+}

@@ -16,7 +16,7 @@ const Login = () => {
             <label htmlFor="password">Enter Password</label>
             <input type="password" placeholder="***********" />
 
-            <button className="orange-btn">log in</button>
+            <Link to="/buycredits" className="orange-btn">log in</Link>
         </form>
         <p className="m-20">Forget Password?<Link to="/reset"> Click here reset password</Link></p>
         <p className="m-20">Or continue with these social profile</p>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from "../styles/Form.module.css";
 
 const Form = () => {
@@ -18,7 +19,7 @@ const Form = () => {
                 <label htmlFor="vehicle1"> I agree with terms and conditions</label>
             </div>
 
-            <button className="orange-btn">sign up</button>
+            <Link to="/buycredits" className="orange-btn">sign up</Link>
         </form>
     )
 }
