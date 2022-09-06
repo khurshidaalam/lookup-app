@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    padding: 10px 55px;
+}
+
+
+
+.checkinput {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.checkinput input {
+    width: 20px;
+    margin-right: 10px;
+}
+.checkinput input[type="checkbox"] {
+    accent-color: var(--font-orange);
+}
