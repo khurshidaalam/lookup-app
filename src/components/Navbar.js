@@ -30,7 +30,7 @@ const Navbar = () => {
                         </button>
                         
                         </div>
-                        {show && <ul className={styles.profiledropdown}>
+                        {show && <ul className={styles.profiledropdown} style={{transition: show ? `all 0.3s` : `all 0.3s`}}>
                         <li>my profile</li>
                         <li>add fund</li>
                         <li>api document</li>

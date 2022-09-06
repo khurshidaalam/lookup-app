@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../Navbar'
 import Sidebar from '../Sidebar'
 
-const MainPageLayout = () => {
+const MainPageLayout = ({children}) => {
     const [minimize, setMinimize] = useState(false);
 
 
@@ -12,10 +12,10 @@ const MainPageLayout = () => {
             <Navbar />
             <div className="main-content-area">
                 {
-                    minimize ? <div className="content-area">hellllloooooo
+                    minimize ? <div className="content-area">{children}
                     </div> : <><Sidebar />
                         <div className="content-area">
-                            hellllloooooo
+                            {children}
                         </div></>
                 }
 
