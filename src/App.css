@@ -108,7 +108,7 @@ input {
 }
 .content-area {
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   transition: all 0.3s;
 }
 
