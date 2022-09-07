@@ -49,7 +49,7 @@
     position: relative;
     z-index: 111 !important;
 }
-.imgarea img {
+.imgarea,.imgarea img {
     height: 100%;
 }
 .topprofiletab h2{

@@ -88,7 +88,7 @@ const Subcription = () => {
 
                     {['right'].map((anchor) => (
                         <React.Fragment key={anchor}>
-                            <button className={`${styles.orangebtn} orange-btn`} onClick={toggleDrawer(anchor, true)}>Buy Credits</button>
+                            <button className={`${styles.orangebtn} orange-btn`} onClick={toggleDrawer(anchor, true)}>Subscribe</button>
                             <Drawer
                                 anchor={anchor}
                                 open={state[anchor]}
