@@ -79,7 +79,7 @@ const OneTime = () => {
 
 
                     {['right'].map((anchor) => (
-                        <>
+                        <React.Fragment key={anchor}>
                             <button className={`${styles.orangebtn} orange-btn`} onClick={toggleDrawer(anchor, true)}>Buy Credits</button>
                             <Drawer
                                 anchor={anchor}
@@ -107,7 +107,7 @@ const OneTime = () => {
                                <p>Note: Minimum credits for purchase should be 5,000 <br></br>1 Credit = 1 Phone Number Validation</p>
                                </div>
                             </Drawer>
-                        </>
+                        </React.Fragment>
                     ))}
                 </div>
             </div>

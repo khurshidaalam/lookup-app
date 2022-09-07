@@ -4,11 +4,12 @@
     width: 146px;
     position: relative;
     transition: all 0.3s;
-
+    height: 100%;
 }
 .sidebarlist{
     padding: 15px;
     position: relative;
+    width: 146px;
 }
 .sidebarlist li {
     display: flex;
@@ -26,9 +27,6 @@
     margin-right: 10px;
     
 }
-
-
-
 .contentarea {
     width: calc(100vw - 146px);
     background-color: red;
