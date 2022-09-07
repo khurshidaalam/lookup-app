@@ -12,9 +12,9 @@ const MainPageLayout = ({children}) => {
             <Navbar />
             <div className="main-content-area">
                 {
-                    minimize ? <div className="content-area">{children}
+                    minimize ? <div className="content-area" style={{width:`100%`}}>{children}
                     </div> : <><Sidebar />
-                        <div className="content-area">
+                        <div className="content-area" style={{width:`calc(100% - 146px)`}}>
                             {children}
                         </div></>
                 }
