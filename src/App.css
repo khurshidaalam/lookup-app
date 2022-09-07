@@ -14,6 +14,7 @@ html {
   --font-orange: #FF7901;
   --font-dark: #26262E;
   --font-grey: #7D7D7E;
+  --border-light: #F2F2F4;
 
 }
 
@@ -30,6 +31,7 @@ a {
   color: var(--font-orange);
   text-decoration: none;
 }
+
 .m-20 {
   margin: 20px 0;
 }
@@ -38,6 +40,7 @@ a {
   width: 72%;
   margin: auto;
 }
+
 .signup-button {
   padding: 20px 97px;
   color: var(--font-orange);
@@ -47,6 +50,7 @@ a {
   text-transform: uppercase;
   cursor: pointer;
 }
+
 h1 {
   text-transform: capitalize;
   color: var(--font-dark);
@@ -61,6 +65,7 @@ p {
   font-size: 14px;
   line-height: 28px;
 }
+
 .orange-btn {
   background: #FF7901;
   box-shadow: 0px 30px 60px rgba(255, 121, 1, 0.3);
@@ -76,6 +81,9 @@ p {
   width: 100%;
   cursor: pointer;
 }
+
+
+
 .form {
   display: flex;
   flex-direction: column;
@@ -83,29 +91,33 @@ p {
   justify-content: space-between;
   padding: 10px 55px;
 }
+
 .orange-btn:hover {
   box-shadow: none;
 }
+
 label,
 input {
-    margin-bottom: 15px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    width: 100%;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  width: 100%;
 }
 
 input {
-    padding: 20px;
-    border: 1px solid #F2F2F4;
-    border-radius: 10px;
+  padding: 20px;
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
 }
+
 .main-content-area {
-  display: flex; 
+  display: flex;
   height: calc(100vh - 70px);
   position: relative;
 
 }
+
 .content-area {
   width: 100%;
   /* background-color: red; */
@@ -122,6 +134,7 @@ input {
   transition: all 0.3s;
 
 }
+
 /* media query  */
 @media (max-width:900px) {
 
@@ -129,36 +142,36 @@ input {
   .middle-image img,
   .logo,
   .logo img {
-      width: 100%;
+    width: 100%;
   }
 
   .logo {
-      padding: 20px;
+    padding: 20px;
   }
 
   .signup-button {
-      padding: 10px 50px;
-      font-size: 14px;
-      margin: 15px 0;
+    padding: 10px 50px;
+    font-size: 14px;
+    margin: 15px 0;
   }
 
   .form {
-      padding: 10px;
+    padding: 10px;
   }
 
   h1 {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   .orange-btn {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   p {
-      font-size: 12px;
+    font-size: 12px;
   }
 
   .w-70 {
-      width: 100%;
+    width: 100%;
   }
 }

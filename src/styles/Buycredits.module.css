@@ -1,25 +1,106 @@
-.buycreditscontent{
+.buycreditscontent {
     width: 100%;
     height: 100%;
     padding: 20px;
 }
-.onetimearea{
+
+.onetimearea {
     text-align: center;
 }
-.allcreditcards{
+
+.allcreditcards {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.creditbox{
+
+.creditbox {
     padding: 15px 20px;
-    border: 1px solid #F2F2F4;
-border-radius: 10px;
-width: 220px;
+    border: 1px solid var(--border-light);
+    border-radius: 10px;
+    min-width: 220px;
 }
-.creditbox:hover,.creditbox:focus {
+
+.creditbox:hover,
+.creditbox:focus {
     border-color: var(--font-orange);
-}
-.costpercredit span{
     color: var(--font-dark);
+}
+
+.costpercredit span,
+.onetimepage h3,
+.buy5kcredits p,
+.numofcredits p,
+.numofcredits span {
+    color: var(--font-dark);
+}
+
+.buy5kcredits span {
+    color: var(--font-orange);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.creditbox:hover .costpercredit span {
+    color: var(--font-orange);
+}
+
+.orangebtn {
+    width: max-content !important;
+    padding: 10px 94px;
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+.buycreditdrawer {
+    padding: 30px 20px;
+    width: 556px;
+    text-align: center;
+}
+.buycreditdrawer h1 {
+    padding: 20px;
+    border-bottom: 2px solid var(--border-light);
+}
+.buycreditdrawer p.costprcredit {
+    padding: 13px 20px;
+    border: 1px solid var(--border-light);
+    width: max-content;
+    margin: 50px auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.buycreditdrawer p.costprcredit span {
+    color: var(--font-dark);
+}
+.creditcarddetailstable {
+    background: var(--border-light);
+    border: 1px dashed rgba(125, 125, 126, 0.4);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px 111px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.creditcarddetailstable th {
+    text-align: left;
+    color: var(--font-grey);
+    font-weight: 400;
+    font-size: 16px;
+}
+.creditcarddetailstable th.total {
+    color: var(--font-dark);
+}
+.creditcarddetailstable td {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: var(--font-dark);
+}
+.paybuybtn {
+    padding: 10px 20px;
+    text-transform: none;
 }

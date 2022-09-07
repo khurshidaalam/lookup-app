@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import styles from "../../styles/Buycredits.module.css";
 import OneTime from '../OneTime';
+import Buycreditdrawer from '../BuyCreditDrawer';
 
 
 function TabPanel(props) {
@@ -53,20 +54,20 @@ const Buycredits = () => {
       <div className={styles.buycreditscontent}>
         <h1>Buy credits</h1>
         <div className={styles.onetimearea}>
-        <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="One Time" {...a11yProps(0)} />
-          <Tab label="subsciption" {...a11yProps(1)} />
-        </Tabs>
-      </Box>
-      <TabPanel value={value} index={0}>
-        <OneTime/>
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-    </Box>
+          <Box sx={{ width: '100%' }}>
+            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+              <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                <Tab label="One Time" {...a11yProps(0)} />
+                <Tab label="subsciption" {...a11yProps(1)} />
+              </Tabs>
+            </Box>
+            <TabPanel value={value} index={0}>
+              <OneTime />
+            </TabPanel>
+            <TabPanel value={value} index={1}>
+              Item Two
+            </TabPanel>
+          </Box>
         </div>
       </div>
     </>
