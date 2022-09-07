@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import styles from "../../styles/Buycredits.module.css";
 import OneTime from '../OneTime';
 import Buycreditdrawer from '../BuyCreditDrawer';
+import Subcription from '../Subcription';
 
 
 function TabPanel(props) {
@@ -65,7 +66,7 @@ const Buycredits = () => {
               <OneTime />
             </TabPanel>
             <TabPanel value={value} index={1}>
-              Item Two
+              <Subcription/>
             </TabPanel>
           </Box>
         </div>

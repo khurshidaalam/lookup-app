@@ -109,6 +109,12 @@
     padding: 10px 20px;
     text-transform: none;
 }
+/* subscription */
+.subscriptioncreditbox{
+    display: flex;
+    justify-content: space-between;
+}
+
 @media (max-width:900px) {
     .buycreditdrawer {
         padding: 30px 10px;
