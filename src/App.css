@@ -134,6 +134,22 @@ input {
   transition: all 0.3s;
 
 }
+.css-heg063-MuiTabs-flexContainer{
+  justify-content: center !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+  text-transform: capitalize !important;
+  position: relative;
+  font-weight: 500!important;
+font-size: 16px !important;
+line-height: 28px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--font-orange) !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: var(--font-orange) !important;
+}
 
 /* media query  */
 @media (max-width:900px) {
